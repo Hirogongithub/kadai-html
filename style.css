@@ -1,0 +1,253 @@
+
+/*--------------------------------------
+ベース要素
+---------------------------------------*/
+/*1段階目背景と全体要素を指定*/
+body {
+  background-color: #dedede;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+/*見出し要素を指定*/
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+/*ヘッダー要素を指定*/
+footer{
+  margin-top: 60px;
+}
+
+/*--------------------------------------
+全体レイアウト
+---------------------------------------*/
+/*2段階目の背景を指定*/
+.wrapper{
+  background-color: #ffffff;
+  margin: auto;
+  padding: 10px 0 40px 0 ;
+  width: 920px;
+}
+/*全体位置を指定*/
+.container {
+  width: 920px;
+  margin: 0 auto 40px auto;
+}
+
+/*--------------------------------------
+ヘッダー_レイアウト
+---------------------------------------*/
+/*ヘッダー_一覧リスト部分を指定*/
+.header-navigation{
+  width: 920px;
+  margin: 0 auto 0px auto;
+  background-color: #383838;
+  padding: 20px 0;
+}
+/*float解除用*/
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+/*リスト部分の文字要素を指定*/
+.header-navigation a {
+  float: left;
+  padding: 0 10px 0 40px;
+  text-align: center;
+  color: #ececec;
+  list-style-type: none;
+  text-decoration: none;
+}
+/*ヘッダーを中央に指定*/
+.header-title-area{
+  text-align: center;
+}
+/*ブログタイトル文字の周辺位置を指定*/
+.logo{
+  margin-top: 40px;
+}
+
+/*--------------------------------------
+右カラム_要素指定
+---------------------------------------*/
+/*右側日付要素指定*/
+.right-contents {
+  width: 250px;
+  float: right;
+  margin-right: 80px;
+}
+/*右側small画像位置調整*/
+.card-contents-small{
+  margin-bottom: 15px;
+}
+/*float解除用*/
+.gazou-small:after{
+  clear: both;
+  display: block;
+  content: " ";
+}
+/*右側small画像の要素指定*/
+.gazou-small {
+  width: 38px;
+  height: 38px;
+  margin: 5px 8px 0 0;
+  border: 2px solid #d5d5d5;
+  float: left;
+}
+/*右側日付要素指定*/
+.right-text-date-small{
+  width: auto;
+  padding: 8px 0 0 0;
+  font-size: 7px;
+}
+/*右側記事タイトル要素指定*/
+.right-link{
+  width: auto;
+  font-size: 11px;
+  color: #21b7cb;
+}
+/*右側記事タイトル要素指定*/
+.right-text-title {
+  width: 210px;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #dedede;
+}
+
+/*--------------------------------------
+左カラム_要素指定
+---------------------------------------*/
+/*左カラムコンテンツ指定*/
+.left-contents {
+  width: 570px;
+  margin-right: 20px;
+  float: left;
+  height: 164px;
+  padding: auto;
+  display: block;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+}
+/*左カラム日付要素指定*/
+.left-text-date {
+  width: auto;
+  padding: 7px 0 7px 20px;
+  font-size: 10px;
+
+}
+/*左カラムタイトル要素指定*/
+.left-text-title {
+  width: auto;
+}
+/*左カラムリンク要素指定*/
+.left-link{
+  font-size: 20px;
+  color: #21b7cb;
+}
+/*左カラム概要要素指定*/
+.left-text-description{
+  width: auto;
+  margin: 20px 0 10px 0;
+  font-size: 9px;
+}
+/*float解除用*/
+.gazou:after{
+  clear: both;
+  display: block;
+  content: " ";
+}
+/*左カラム画像要素指定*/
+.gazou {
+  width: 150px;
+  height: 150px;
+  margin: 0 10px 0 30px;
+  border: 6px solid #d5d5d5;
+  float: left;
+}
+/*float解除用*/
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+/*--------------------------------------
+フッター_要素指定
+---------------------------------------*/
+/*フッター要素指定*/
+.copyright {
+  width: 850px;
+  color: #777;
+  text-align: center;
+  margin: auto;
+  border-top: 1px solid #adadad;
+  padding-top:20px;
+}
+
+/*--------------------------------------
+各ドキュメントページ_要素指定
+---------------------------------------*/
+/*document1ページ左カラム要素指定*/
+.document-contents{
+  width: 570px;
+  margin-right: 20px;
+  float: left;
+  height:auto;
+  padding: auto;
+  display: block;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+}
+/*document1ページ左カラム_日付要素指定*/
+.document-date{
+  margin:0 0 0 20px;
+}
+/*document1ページ左カラム_タイトル要素指定*/
+.document-title{
+  margin:20px 0 0 20px;
+}
+/*document1ページ左カラム_大項目要素指定*/
+.document-Heading{
+  margin:40px 40px 0 15px;
+  font-size: 20px;
+}
+/*document各ページ左カラム_タイトル色要素指定*/
+.document-link{
+  font-size: 32px;
+  color: #21b7cb;
+}
+/*document各ページ左カラム_テキスト要素指定*/
+.left-txt-description{
+  margin:30px 40px 0 20px;
+  font-size: 18px;
+}
+/*document画像要素指定*/
+.documentgazou{
+  width: 500px;
+  margin-left: 10px;
+  border: 2px solid #ff3f00;
+}
+/*document画像要素指定2*/
+.documentgazou2{
+  width: 300px;
+  margin-left: 10px;
+  border: 2px solid #ff3f00;
+}
+/*document画像要素指定3*/
+.documentgazou3{
+  width: 200px;
+  margin-left: 10px;
+  border: 2px solid #ff3f00;
+}
+/*document画像要素指定4*/
+.documentgazou4{
+  width: 550px;
+  margin-left: 10px;
+}
+/*document画像要素指定5*/
+.documentgazou5{
+  width: 500px;
+  margin-left: 10px;
+  border: 2px solid #ff3f00;
+}

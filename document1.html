@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Sample Blog</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--2段階目の背景を指定-->
+  <div class="wrapper">
+
+    <!--ヘッダー部分を指定-->
+    <header>
+      <div class="container">
+        <div class="header-title-area">
+          <h1 class="logo">Sample Blog</h1>
+        </div>
+      </div>
+      <!--ヘッダー下部カテゴリを指定-->
+      <ul class="header-navigation">
+        <a href="./index.html">ホーム</a>
+        <a href="#">カテゴリー一覧</a>
+        <a href="#">お問い合わせ</a>
+      </ul>
+    </header>
+
+    <div class="main">
+      <!--右側コンテンツを作成-->
+      <div class="right-contents">
+        <h2 class="right-text-title">新着記事</h2>
+        <!--一段目-->
+        <div class="card-contents-small">
+          <img src="./image/悩み画像1.JPG" class="gazou-small" alt="悩み画像1">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a href="./document1.html" class="right-link" style="text-decoration:none;">課題で悩んだ部分 その１</a>
+          </div>
+        </div>
+        <!--二段目-->
+        <div class="card-contents-small">
+          <img src="./image/悩み画像2.JPG" class="gazou-small" alt="悩み画像2">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a href="./document2.html" class="right-link" style="text-decoration:none;">課題で悩んだ部分 その２</a>
+          </div>
+        </div>
+        <!--三段目-->
+        <div class="card-contents-small">
+          <img src="./image/役に立ったPKG.JPG" class="gazou-small" alt="役に立ったPKG">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a href="./document3.html" class="right-link" style="text-decoration:none;">役に立ったAtomパッケージ</a>
+          </div>
+        </div>
+        <!--四段目-->
+        <div class="card-contents-small">
+          <img src="./image/no-image.jpg" class="gazou-small" alt="no-image">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a>No,title</a>
+          </div>
+        </div>
+        <!--五段目-->
+        <div class="card-contents-small">
+          <img src="./image/no-image.jpg" class="gazou-small" alt="no-image">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a>No,title</a>
+          </div>
+        </div>
+      </div>
+
+      <!--左側メインコンテンツを作成-->
+      <div class="container">
+        <div class="document-contents">
+          <div class="document-date">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="document-title">
+            <a href="./document1.html" class="document-link" style="text-decoration:none;">課題で悩んだ部分 その１</a>
+          </div>
+          <div class="left-txt-description">
+            <p>課題を作成する中で、悩んだ点を紹介します。</p>
+          </div>
+          <div class="document-Heading">
+            <h3>①画像のサイズ指定</h3>
+          </div>
+          <div class="left-txt-description">
+            <p>下記の図のように画像をdiv classで囲み、画像サイズの指定をしましたが、サイズが反映されず戸惑いました。<br><br>
+              CSSで"gazou"クラスの幅と高さを指定しても、原寸大で表示されてしまいます。↓</p>
+            </div>
+            <img src="./image/document1-1.JPG" class="documentgazou" alt="documentgazou">
+            <div class="left-txt-description">
+              <p><br>結果的には、下記のように、imgに直接クラスを設定し、CSSでサイズ指定することで、解決しました↓。</p>
+            </div>
+            <img src="./image/document1-2.JPG" class="documentgazou" alt="documentgazou">
+          </div>
+        </div>
+      </div>
+
+      <!--フッターを設定-->
+      <footer>
+        <p class="copyright">(C) 2019 Hirogon</p>
+      </footer>
+
+    </div>
+  </body>
+  </html>

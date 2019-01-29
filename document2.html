@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Sample Blog</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--2段階目の背景を指定-->
+  <div class="wrapper">
+
+    <!--ヘッダー部分を指定-->
+    <header>
+      <div class="container">
+        <div class="header-title-area">
+          <h1 class="logo">Sample Blog</h1>
+        </div>
+      </div>
+      <!--ヘッダー下部カテゴリを指定-->
+      <ul class="header-navigation">
+        <a href="./index.html">ホーム</a>
+        <a href="#">カテゴリー一覧</a>
+        <a href="#">お問い合わせ</a>
+      </ul>
+    </header>
+
+    <div class="main">
+      <!--右側コンテンツを作成-->
+      <div class="right-contents">
+        <h2 class="right-text-title">新着記事</h2>
+        <!--一段目-->
+        <div class="card-contents-small">
+          <img src="./image/悩み画像1.JPG" class="gazou-small" alt="悩み画像1">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a href="./document1.html" class="right-link" style="text-decoration:none;">課題で悩んだ部分 その１</a>
+          </div>
+        </div>
+        <!--二段目-->
+        <div class="card-contents-small">
+          <img src="./image/悩み画像2.JPG" class="gazou-small" alt="悩み画像2">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a href="./document2.html" class="right-link" style="text-decoration:none;">課題で悩んだ部分 その２</a>
+          </div>
+        </div>
+        <!--三段目-->
+        <div class="card-contents-small">
+          <img src="./image/役に立ったPKG.JPG" class="gazou-small" alt="役に立ったPKG">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a href="./document3.html" class="right-link" style="text-decoration:none;">役に立ったAtomパッケージ</a>
+          </div>
+        </div>
+        <!--四段目-->
+        <div class="card-contents-small">
+          <img src="./image/no-image.jpg" class="gazou-small" alt="no-image">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a>No,title</a>
+          </div>
+        </div>
+        <!--五段目-->
+        <div class="card-contents-small">
+          <img src="./image/no-image.jpg" class="gazou-small" alt="no-image">
+          <div class="right-text-date-small">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="right-text-title-small">
+            <a>No,title</a>
+          </div>
+        </div>
+      </div>
+
+      <!--左側メインコンテンツを作成-->
+      <div class="container">
+        <div class="document-contents">
+          <div class="document-date">
+            <h3>2019年01月28</h3>
+          </div>
+          <div class="document-title">
+            <a href="./document1.html" class="document-link" style="text-decoration:none;">課題で悩んだ部分 その２</a>
+          </div>
+          <div class="left-txt-description">
+            <p>課題を作成する中で、悩んだ点を紹介します。</p>
+          </div>
+          <div class="document-Heading">
+            <h3>②"div"の数がわからなくなる</h3>
+          </div>
+          <div class="left-txt-description">
+            <p>要素の数が多くなると、要素の閉じ忘れが発生し<br>たびたび表示のずれに悩まされました。↓</p>
+          </div>
+          <img src="./image/document2-1.JPG" class="documentgazou2" alt="documentgazou">
+          <img src="./image/document2-2.JPG" class="documentgazou3" alt="documentgazou">
+          <div class="left-txt-description">
+            <p><br>結果的に、Atomのインデントフォロー機能でミスが減りました。<br>
+              settingから「show Indent Guide」と「show Invisibles」にチェックをいれるとガイドラインが付きます。↓</p>
+            </div>
+            <img src="./image/document2-3.JPG" class="documentgazou3" alt="documentgazou">
+            <div class="left-txt-description">
+              <p>下記図の通り、インデントのフォロー機能がONになります。<br>全選択後、Ctr+Iで自動インデント機能も便利でした。</p>
+            </div>
+            <img src="./image/document2-4.JPG" class="documentgazou4" alt="documentgazou">
+          </div>
+        </div>
+      </div>
+
+      <!--フッターを設定-->
+      <footer>
+        <p class="copyright">(C) 2019 Hirogon</p>
+      </footer>
+    </body>
+    </html>
